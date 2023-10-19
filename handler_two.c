@@ -15,7 +15,7 @@ void handle_subop(stack_t **stack, unsigned int ln_number)
 
 	if (thelistint_len(*stack) < 2)
 	{
-		dprintf(STDERR_FILENO, SUB_FAIL, ln_number);
+		vprintf(STDERR_FILENO, SUB_FAIL, ln_number);
 		everything_free(1);
 		exit(EXIT_FAILURE);
 	}

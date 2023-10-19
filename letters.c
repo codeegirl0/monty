@@ -12,13 +12,13 @@ void handling_pchar(stack_t **stack, unsigned int ln_number)
 
 	if (!node)
 	{
-		dprintf(STDERR_FILENO, PCHAR_FAIL, ln_number);
+		vprintf(STDERR_FILENO, PCHAR_FAIL, ln_number);
 		everything_free(1);
 		exit(EXIT_FAILURE);
 	}
 	if (node->n < 0 || node->n > 127)
 	{
-		dprintf(STDERR_FILENO, PCHAR_RANGE, ln_number);
+		vprintf(STDERR_FILENO, PCHAR_RANGE, ln_number);
 		everything_free(1);
 		exit(EXIT_FAILURE);
 	}
