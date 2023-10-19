@@ -1,8 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stddef.h>
-
 #include "monty.h"
 
 /* first_list.c */

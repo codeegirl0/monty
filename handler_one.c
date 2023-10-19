@@ -1,7 +1,6 @@
 #include "monty.h"
 #include "logs.h"
-#include <stdio.h>
-#include <unistd.h>
+
 /**
  * handle_pint - handling pint
  * @stack: pointer to push
