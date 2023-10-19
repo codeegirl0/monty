@@ -1,5 +1,5 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef LOGS_H
+#define LOGS_H
 
 #include "monty.h"
 
