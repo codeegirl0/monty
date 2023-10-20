@@ -12,7 +12,7 @@ void handle_pint(stack_t **stack, unsigned int ln_number)
 
 	if (!head)
 	{
-		vprintf(STDERR_FILENO, PINT_FAIL, ln_number);
+		dprintf(STDERR_FILENO, PINT_FAIL, ln_number);
 		everything_free(1);
 		exit(EXIT_FAILURE);
 	}
