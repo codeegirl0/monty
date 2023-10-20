@@ -1,5 +1,6 @@
 #include "monty.h"
 #include "logs.h"
+#include <stdio.h>
 
 mydata_t data = DATA_INIT;
 
